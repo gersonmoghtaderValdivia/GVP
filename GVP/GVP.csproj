@@ -108,17 +108,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Index.aspx" />
+    <Content Include="VIEW\Index.aspx" />
     <Content Include="VIEW\Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ENTITY\Usuario_Entity.cs" />
-    <Compile Include="Index.aspx.cs">
+    <Compile Include="VIEW\Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Index.aspx.designer.cs">
+    <Compile Include="VIEW\Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="MODEL\Usuario_DAO.cs" />

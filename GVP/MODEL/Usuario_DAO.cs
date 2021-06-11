@@ -14,7 +14,7 @@ namespace GVP.MODEL
             bool respuesta = true;
 
             MySqlCommand sentencia = new MySqlCommand();
-            string sql = "SELECT EXISTS (select * from usuarios where correo=@correo and contrasna=@contrasena) as existe";
+            string sql = "SELECT EXISTS (select * from usuarios where correo=@correo and contrasena=@contrasena) as existe";
             sentencia.Parameters.AddWithValue("@correo",usr);
             sentencia.Parameters.AddWithValue("@contrasena", pass);
 

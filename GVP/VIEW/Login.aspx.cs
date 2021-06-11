@@ -35,7 +35,7 @@ namespace GVP.VIEW
                 }
                 else
                 {
-                    tbUsuario.Text = "falló";
+                    tbUsuario.Text = "Credenciales incorrectas";
                 }
 
             }
